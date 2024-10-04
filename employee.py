@@ -13,7 +13,7 @@ st.set_page_config(page_title="Employee Dashboard",
 df=pd.read_excel("employee_data.xlsx")
 ##side bar
 st.sidebar.title("Employee Dashboard")
-#st.sidebar.image("employee.jpg")
+st.sidebar.image("employee.jpg")
 #ov=st.sidebar.button("Overview")
 st.sidebar.header("Filters")
 # Sidebar filters
